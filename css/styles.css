@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+}
+
+body, p, span, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
+    color: #D60559; 
+}
+
+ 
+/* Hero Section */
+
+.hero-section {
+    background-image: url('../media/img/marganidos_Background.png'); 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-end;
+    padding: 50px; 
+    color: #D60559;
+}
+
+.hero-content {
+    width: 100%; 
+    max-width: 600px; 
+}
+/* Estilo del encabezado */
+.hero-title {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
+    font-size: 5rem;
+    margin-bottom: 1rem; 
+}
+
+/* Cards Section */
+.card {
+    margin-bottom: 20px; 
+}
+
+.card-title {
+    font-size: 1.5rem; 
+}
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover; 
+}
+
+/* Newsletter */
+
+.sectionstyle {
+    background-color: #f8f9fa; 
+    padding: 40px 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.sectionstyle  h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
+    color: #D60559; 
+}
+
+.sectionstyle figure img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.sectionstyle  p {
+    margin: 2em;
+    font-size: 1.1rem; 
+    line-height: 1.6; 
+    color: #333; 
+}
+
+/* ENTREVISTA */
+
+#entrevista {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#entrevista h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #D60559;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#entrevista h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #333;
+    margin-top: 0;
+}
+
+#entrevista p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-top: 1em;
+}
+
+#entrevista .row figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer a {
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+footer a:hover {
+    color: #D60559;
+}
+
+footer p {
+    color: white;
+}
+
+footer ul {
+    padding: 0; 
+    text-align: left; 
+}
+
+footer ul li {
+    margin: 0.5rem 0;
+}
+
+footer i {
+    font-size: 1.5rem; 
+    transition: color 0.3s; 
+}
+
+footer i:hover {
+    color: #D60559; 
+}
