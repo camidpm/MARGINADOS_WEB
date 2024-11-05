@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Marginados</title>
-    <!-- Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!--CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-     <!-- Bootstrap script-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <!-- ICONS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <title>Marginados - Inicio</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- AOS CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- SCRIPT -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-        <div class="container">
+    
+<!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+    <div class="container">
 
             <a class="navbar-brand" href="index.html">
                 <img src="media/img/logo.png" alt="Logo Marginados" width="30" height="30">
             </a>
-            
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -60,6 +69,50 @@
             </form>
         </div>
     </div>
+ <!-- Footer -->
+    <footer class="text-white py-5">
+        <div class="container">
+            <div class="row text-md-start">
+                <div class="col-lg-4 col-md-6 mb-4 text-center text-md-start">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="galery.html">Sobre Nosotros</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="politicadeprivacidad.html">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 text-center text-md-start">
+                    <ul class="list-unstyled">
+                        <li><a href="#vol1">VOL1-MADRID</a></li>
+                        <li><a href="#artists">ARTISTAS EMERGENTES</a></li>
+                        <li><a href="#entrevista">ENTREVISTA</a></li>
+                        <li><a href="#film">PELÍCULA</a></li>
+                        <li><a href="#book">LIBRO</a></li>
+                        <li><a href="#podcast">PODCAST</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4 text-center text-lg-start">
+                    <ul class="list-unstyled d-flex social-icons align-items-center">
+                        <li><a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="me-3"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="me-3"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" class=""><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><button id="toggleButton" class="btn btn-light ms-3">MARGINADOS</button></li>
+                    </ul>
+              
+                    <p class="hidden-text" id="additionalText" style="display: none; margin-top: 0.5rem;">
+                        Una revista de arte contemporáneo 
+                        VOL1-MADRID
+                    </p>
+                </div>
+            </div>
+    
+            <div class="text-center text-md-end mt-4">
+                <p>© 2024 Marginados. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
     
     <!-- Script -->
     <script src="js/script.js"></script>
