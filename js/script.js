@@ -1,4 +1,7 @@
+AOS.init();
+
 $(document).ready(function() {
+    
     //BOTON FOOTER
     $('#toggleButton').click(function() {
         $('#additionalText').slideToggle().css('display', 'inline-block');
