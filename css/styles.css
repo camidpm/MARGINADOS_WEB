@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* Footer */
+/* Footer */ 
 footer a {
     text-decoration: none; 
     transition: color 0.3s; 
@@ -146,6 +146,26 @@ footer ul li {
 footer i {
     font-size: 1.5rem; 
     transition: color 0.3s; 
+}
+
+footer i:hover {
+    color: #D60559; 
+}
+
+/* Boton footer */
+#toggleButton {
+    background-color: #ffffff; 
+    color: #3D0ADD;
+    border: none; 
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#toggleButton:hover {
+    background-color: #D60559; 
+    color: #ffffff; 
 }
 
 /* GALERIA */

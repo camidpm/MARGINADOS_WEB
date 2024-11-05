@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    //BOTON FOOTER
+    $('#toggleButton').click(function() {
+        $('#additionalText').slideToggle().css('display', 'inline-block');
+    });
     
     // CONTACT0
     $('form').on('submit', function(event) {
