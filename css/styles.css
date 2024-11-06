@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     user-select: none;
     gap: var(--gap);
+    scroll-behavior: none;
 }
   .marquee__content {
     animation: scroll 8s linear infinite;
@@ -60,7 +61,11 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 100%;
     gap: var(--gap);
 }
-  .marquee__content:nth-child(2){
+.marquee ul, .marquee__content h1 {
+    margin-bottom: 0;
+}
+
+.marquee__content:nth-child(2){
     margin-right: -100%; 
 }
   @keyframes scroll {
