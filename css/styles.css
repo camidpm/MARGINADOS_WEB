@@ -1,12 +1,11 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body {
-    overflow-y: hidden;
     background-color: white;
+    overflow-x: hidden;
 }
 
 body, p, span, a {
@@ -16,7 +15,6 @@ body, p, span, a {
 
 img {
     width: 100%;
-    vertical-align: middle;
 }
 
 
@@ -140,7 +138,7 @@ h2 {
 .artist-section {
     display: flex;
     gap: 2em;
-    padding: 2em;
+    padding: 3em; 
 }
 
 .artist-list {
