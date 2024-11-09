@@ -25,6 +25,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700; 
     color: #D60559; 
 }
+h2 {
+    margin-top: 1em;
+}
 /* Hero Section */
 
 .hero-section {
@@ -78,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Cards */
+
 .container {
     max-width: 100%;
     padding: 0;
@@ -169,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+
 /* ENTREVISTA */
 
 #entrevista {
@@ -208,6 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Footer */ 
+
 footer {
     padding: 3em;
     background-color: #3D0ADD;
@@ -293,6 +299,22 @@ footer i:hover {
     font-weight: bold;
     text-align: center;
 }
+
+/* form */
+
+.is-invalid {
+    border: 2px solid red;
+}
+.is-valid {
+    border: 2px solid green;
+}
+#confirmationMessage {
+    color: green;
+    font-size: 18px;
+    text-align: center;
+    display: none;
+}
+
 /* MEDIA QUERIES */
 
 /* footer */
