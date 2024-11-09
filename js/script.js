@@ -28,4 +28,9 @@ $(document).ready(function() {
             $(this).css('transform', 'scale(1)').css('box-shadow', 'none');
         }
     );
+
+    $('.artist-list li').click(function() {
+        var artist = $(this).data('artist');
+        $('#image-' + artist).toggle(); 
+    });
 });
