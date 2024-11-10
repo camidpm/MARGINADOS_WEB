@@ -61,7 +61,10 @@ $(document).ready(function() {
     );
 
     $('.artist-list li').click(function() {
-        var artist = $(this).data('artist');
-        $('#image-' + artist).toggle(); 
-    });
+    var artist = $(this).data('artist');
+    
+    $('.artist-image').hide();
+    
+    $('#image-' + artist).show();
+});
 });
